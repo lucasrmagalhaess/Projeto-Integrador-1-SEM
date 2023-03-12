@@ -1,0 +1,61 @@
+package ShowdoMilhas;
+
+import java.util.Scanner;
+import java.util.Timer;
+
+public class codigo {
+
+	public static void main(String[] args) throws InterruptedException {
+
+		Scanner entrada = new Scanner(System.in);
+		Timer time = new Timer();
+
+		System.out.println("Bem vindo ao Show do Milhão!");
+	    
+		int opcao;
+		
+	    do {
+		
+	    	System.out.println("+====================+");
+			System.out.println("|    MENU DO JOGO    |");
+			System.out.println("+====================+");
+			System.out.println("| 1 - Instruções     |");
+			System.out.println("| 2 - Jogar          |");
+			System.out.println("| 3 - Créditos       |");
+			System.out.println("| 4 - Sair           |");
+			System.out.println("+====================+");
+			System.out.println("Digite sua opcao: "); 
+			opcao = entrada.nextInt();
+
+
+		 
+				if(opcao == 1) {
+				System.out.println("O jogo consistirá em um quiz contendo 10 perguntas avaliativas, que resultarão "
+				+ "no seu desempenho final");
+				Thread.currentThread();
+				Thread.sleep(3000);
+				
+			}
+				if(opcao == 2) {
+				System.out.println("A partida vai começar!");
+				
+			
+			}
+				if(opcao == 3) {
+				System.out.println("Este, é um projeto desenvolvido pelos alunos pertencentes a Turma C de Análise e Desenvolvimento de Sistemas.");
+				System.out.println("Beatriz Bizerra");
+				System.out.println("Camille Pereira");
+				System.out.println("Gabriel Gonzaga");
+				System.out.println("João Pereira");
+				System.out.println("Lucas Rodrigues");
+				Thread.currentThread();
+				Thread.sleep(3000);
+			}
+				
+			   } while (opcao != 4); 
+	       System.out.println("Fim do jogo!");
+	}
+
+	}
+
+
