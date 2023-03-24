@@ -12,7 +12,7 @@ public class codigo {
 
 		System.out.println("Bem vindo ao Show do Milhão!");
 	    
-		int opcao;
+		int opcao, alternativa;
 		
 	    do {
 		
@@ -38,6 +38,18 @@ public class codigo {
 			}
 				if(opcao == 2) {
 				System.out.println("A partida vai começar!");
+				System.out.println("A partida vai começar!");
+		          Thread.sleep(3000);
+		          System.out.println("PRIMEIRA PERGUNTA.");
+		            Thread.sleep(1500);
+		          System.out.println("1- Quantas Copas tem o Brasil?: ");
+		        	System.out.println("+====================+");
+					System.out.println("| A - 4              |");
+					System.out.println("| B - 3              |");
+					System.out.println("| C - 6              |");
+				    System.out.println("| D - 5              |");
+					System.out.println("+====================+");
+					alternativa
 				
 			
 			}
